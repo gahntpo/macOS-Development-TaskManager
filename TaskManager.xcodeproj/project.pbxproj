@@ -18,6 +18,10 @@
 		175799F42A93500A00948A2E /* StaticTaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175799F32A93500A00948A2E /* StaticTaskListView.swift */; };
 		175799F62A93560D00948A2E /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175799F52A93560D00948A2E /* TaskListView.swift */; };
 		175799F82A93572900948A2E /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175799F72A93572900948A2E /* TaskView.swift */; };
+		17B3F3902A9646A60009079F /* macos_window.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17B3F38F2A9646A60009079F /* macos_window.jpg */; };
+		17B3F3922A9646B10009079F /* macos_settings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17B3F3912A9646B10009079F /* macos_settings.jpg */; };
+		17B3F3942A9646BA0009079F /* macos_main.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17B3F3932A9646BA0009079F /* macos_main.jpg */; };
+		17B3F3962A9646F70009079F /* macos_dropdownmenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 17B3F3952A9646F70009079F /* macos_dropdownmenu.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		175799F32A93500A00948A2E /* StaticTaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTaskListView.swift; sourceTree = "<group>"; };
 		175799F52A93560D00948A2E /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
 		175799F72A93572900948A2E /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		17B3F38F2A9646A60009079F /* macos_window.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macos_window.jpg; sourceTree = "<group>"; };
+		17B3F3912A9646B10009079F /* macos_settings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macos_settings.jpg; sourceTree = "<group>"; };
+		17B3F3932A9646BA0009079F /* macos_main.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macos_main.jpg; sourceTree = "<group>"; };
+		17B3F3952A9646F70009079F /* macos_dropdownmenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = macos_dropdownmenu.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,7 @@
 		175799CF2A934C4E00948A2E = {
 			isa = PBXGroup;
 			children = (
+				17B3F38E2A9646650009079F /* images */,
 				175799DA2A934C4E00948A2E /* TaskManager */,
 				175799D92A934C4E00948A2E /* Products */,
 			);
@@ -96,6 +105,17 @@
 				175799EF2A934ECE00948A2E /* TaskSection.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		17B3F38E2A9646650009079F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				17B3F38F2A9646A60009079F /* macos_window.jpg */,
+				17B3F3912A9646B10009079F /* macos_settings.jpg */,
+				17B3F3932A9646BA0009079F /* macos_main.jpg */,
+				17B3F3952A9646F70009079F /* macos_dropdownmenu.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +176,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17B3F3942A9646BA0009079F /* macos_main.jpg in Resources */,
+				17B3F3962A9646F70009079F /* macos_dropdownmenu.jpg in Resources */,
+				17B3F3922A9646B10009079F /* macos_settings.jpg in Resources */,
+				17B3F3902A9646A60009079F /* macos_window.jpg in Resources */,
 				175799E32A934C5200948A2E /* Preview Assets.xcassets in Resources */,
 				175799E02A934C5200948A2E /* Assets.xcassets in Resources */,
 			);
